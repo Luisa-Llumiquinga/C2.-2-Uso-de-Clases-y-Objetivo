@@ -68,5 +68,30 @@ private:
    	cout<<"Su edad es : "<<a<<" ANOS "<<m<<", MESES Y "<<d<<" DIAS "<<endl;
    	}	
 //LOPEZ BONE FERNANDO
+	//calcular indice de masa corporal.
+	void IMC(float imc)
+ 	{
+ 		imc = peso/(estatura*estatura); 
+ 		cout<<"---||INDICE DE MASA CORPORAL||--- \n";
+		cout<< "Tu indice de masa corporal es : " << imc << endl<<endl;
+    	if (imc<20)
+    	{
+    		cout<<"Peso inferior al normal, tienes que subir de peso " << "\n\n";
+		}
+     	else
+   	if (18.5<imc&&imc<=24.9)
+ 		{
+  		  cout<< "Peso normal ¡FELICIDADES! tines el peso correcto" << "\n\n" ;
+		}
+      	else
+   	if (25<imc&&imc<29.0)
+    	{
+    		cout<< "Peso superior al normal, tomar medidas al respecto." << "\n\n"; 
+		}
+  	 	else
+    	{
+    		cout<< "Obesidad, Le recomendamos comer sano, hacer ejercicio y acudir a un profesional." << "\n\n"; 	
+		}
+ 	}
 //LLUMIQUINGA PINCAY LUISA	
 };
