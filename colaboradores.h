@@ -93,5 +93,27 @@ private:
     		cout<< "Obesidad, Le recomendamos comer sano, hacer ejercicio y acudir a un profesional." << "\n\n"; 	
 		}
  	}
-//LLUMIQUINGA PINCAY LUISA	
+//LLUMIQUINGA PINCAY LUISA
+	//guardar archivo txt.
+	void guardar()
+	{
+ 		ofstream work;
+ 		work.open("trabajo.txt",ios::out);
+ 		if (work.fail())
+		{
+ 			cout<<"Error";
+ 			exit(1);
+	 	}
+	    work<<"CEDULA: "<<cedula<<endl;
+		work<<"NOMBRES: "<<nombres<<endl;
+		work<<"APELLIDOS: "<<apellidos<<endl;
+		work<<"PESO: "<<peso<<endl;
+		work<<"ESTATURA: "<<estatura<<endl;
+		work<<"AA: "<<an<<endl;
+		work<<"MM: "<<mn<<endl;
+		work<<"DD: "<<dn<<endl; 
+		cout<<"||----GUARDAR ARCHIVO----||"<<endl<<endl;
+		cout<<"SUS DATOS SE GUARDAON CON EXITO \n\n";
+		work.close();
+ 	}
 };
