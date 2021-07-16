@@ -116,4 +116,23 @@ private:
 		cout<<"SUS DATOS SE GUARDAON CON EXITO \n\n";
 		work.close();
  	}
+	//LLUMIQUINGA Y LOPEZ 
+		//recuperar datos de archivo y mostrar
+	void rym()
+ 	{
+ 		ifstream work;
+ 		string texto;
+ 		work.open("trabajo.txt",ios::in);
+ 		if(work.fail())
+		{
+ 			cout<<"No es posible abrir su archivo";
+ 			exit(1);
+	 	}
+	 	while(!work.eof())
+		{
+	 		getline(work,texto);
+	 		cout<<texto<<endl;	
+	 	}
+	 	work.close();
+	}
 };
