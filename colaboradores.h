@@ -7,8 +7,7 @@ private:
 	float peso, estatura,imc;	
 	public:
   	Persona()
-	{
-	  	
+	{  	
 	}
   	//ingresar datos 
   	void ingresar()
@@ -40,6 +39,34 @@ private:
 		cout<<"-----------------------------------------------------"<<endl;
 	}
 //BRAVO MENDOZA SHADEN
+	//calcular edad
+	void edad(int aa,int ma,int da) 
+  	{
+  	    if(da>dn)
+	  {
+	        d=da-dn;
+	  }
+            else
+	  {
+		da=da+30;
+		ma=ma-1;
+		d=da-dn;
+	  }
+	    if(ma>mn)
+	  {
+		m=ma-mn;
+	  }
+	    else
+	  {
+		ma=ma+12;
+		m=ma-mn;
+	  }
+		a=aa-an;
+   	} 
+	void edad2()
+   	{
+   	cout<<"Su edad es : "<<a<<" ANOS "<<m<<", MESES Y "<<d<<" DIAS "<<endl;
+   	}	
 //LOPEZ BONE FERNANDO
 //LLUMIQUINGA PINCAY LUISA	
 };
