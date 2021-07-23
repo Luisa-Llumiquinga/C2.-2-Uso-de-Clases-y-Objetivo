@@ -6,10 +6,8 @@
 using namespace std;
 #include "colaboradores.h"  
 
-
 int main() 
 {
-	
 	int da, ma, aa, an, mn, dn, a,m , d;
 	float peso,estatura,imc;
 	Persona PEPE;
@@ -58,13 +56,13 @@ int main()
 		}
 		if(op>5)
 		{
-			cout << "Opcion no permitida !\n" <<  "Press Enter to continue\n";
+		cout << "Opcion no permitida !\n" <<  "Press Enter to continue\n";
    			// pause the program until user input
-		    flag=cin.ignore().get();
+		 flag=cin.ignore().get();
 		}		  
 		if(op==0)
 		{
-			cout<<"Salimos del Sistema: "<<endl;
+		cout<<"Salimos del Sistema: "<<endl;
 		}
 	}		
 	while(op!=0);
