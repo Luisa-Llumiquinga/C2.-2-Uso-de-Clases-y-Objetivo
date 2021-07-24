@@ -128,3 +128,82 @@ Alli se usa el ofstream para crear un archivo, se agrega una variable que sirve 
 ◾La septima función (void rym), se utiliza para recuperar y mostrar los datos guardados en la sexta función (void guardar), donde usa el ifstream que busca el archivo creado en la sexta función y creamos la misma variable que en la sexta función, ademas crear otra variable de tipo string que nos va a sirve para que el programa muestre todo el texto que hay en el archivo de texto. 
 
 ![](https://i.ibb.co/myG7NjW/Whats-App-Image-2021-07-23-at-6-04-31-PM.jpg)
+
+
+# INSTALACIÓN 🔧
+1. Primero debes estar dentro del repositorio.
+
+![](https://i.ibb.co/DpPZDMB/Captura.png)
+
+2. Una vez ahí, vas a encontrar un botón color verde llamado código donde te mostrara varias opciones.
+
+![](https://i.ibb.co/2vmqHC3/Captura1.png)
+
+3. Deberás elegir la opción "Descargar zip" y se descargara el archivo el cual deberás descomprimir 
+
+![](https://i.ibb.co/2KCP1bx/Captura2.png)
+
+4. Cuando lo tengas descargado das clic derecho sobre el archivo “zip” y pulsas extraer aquí 
+
+![](https://i.ibb.co/PTnkvSR/Captura-de-pantalla-65.png)
+
+5. Después de la extracción te dejará una carpeta con el nombre del repositorio.
+
+![](https://i.ibb.co/xfD9p5Q/Captura3.png)
+
+6. Dentro de esta carpeta obtendras el codigo del programa.
+
+![](https://i.ibb.co/GTQ9VfJ/Captura4.png)
+
+7. Por ultimo solo lo tienes que abrir. 
+
+![](https://i.ibb.co/R6mhJ49/Captura-de-pantalla-66.png)
+
+8.Y tendras el codigo listo para ejecutar 
+
+![](https://i.ibb.co/8gyGjnc/Captura-de-pantalla-67.png)
+
+
+# EJECUCIÓN 👨💻 
+
+1. Una vez obtenido el codigo nos dirijimos a la barra de herramientas ubicada en la pate superior.
+
+![](https://i.ibb.co/J2PBxsM/Captura10.png)
+
+2.	Aquí encontraremos el botón de compilar y ejecutar el cual vamos a usar para probar el programa.
+
+![](https://i.ibb.co/r6tK8dj/Captura11.png)
+
+3. Ejecutado el programa nos mostrará un menú y nos pedirá que escojamos una opción 
+
+![](https://i.ibb.co/WWFZhRb/Captura12.png)
+
+4.	Para la opción 1 habrá que llenar con nuestros datos. 
+
+![](https://i.ibb.co/GWb49sJ/20.png)
+
+5. La opción 2 va a calcular nuestra edad y para esto se debe ingresar la fecha actual
+
+![](https://i.ibb.co/1JLpvqk/21.png)
+
+6.	La opción 3 mostrará un mensaje dependiendo del dato que hallamos ingresado en nuestro peso.
+
+![](https://i.ibb.co/z8BLSbq/22.png)
+
+7. La opción 4 guardara los datos que ingresamos 
+
+![](https://i.ibb.co/SNp3mgQ/Captura16.png)
+
+8.	En la carpeta donde tenemos guardado el programa se creara un archivo de texto  que contendrá nuestros datos.
+
+![](https://i.ibb.co/BjTpbzb/Captura17.png)
+
+9. La opción 5 mostrará el archivo de texto con nuestros datos 
+
+![](https://i.ibb.co/bH6BKKz/23.png)
+
+10. Con la opción 0 salimos del programa  
+
+![](https://i.ibb.co/g4nd7Ph/Captura18.png)
+
+ESPERO QUE TE SIRVA DE MUCHA AYUDA NUESTRO PROGRAMA ✔
