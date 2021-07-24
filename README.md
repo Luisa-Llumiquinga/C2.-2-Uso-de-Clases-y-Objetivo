@@ -88,6 +88,7 @@ Luego se crea un menú que le permite al usuario ingresar una opción.
 En el siguiente archivo (colaboradores.h) se encuentran la clase (class Persona) y las funciones empleadas. 
 
 En Class Persona se declaran los datos privados del usuario, estos no pueden ser alterados.
+
 ![](https://i.ibb.co/DfYdZ7f/Whats-App-Image-2021-07-23-at-6-03-13-PM.jpg)
 
 Se declara datos públicos, dentro de los estos se hacen las funciones y los procesos para cada una de las opciones del menú
@@ -95,9 +96,11 @@ Se declara datos públicos, dentro de los estos se hacen las funciones y los pro
 Ahi se encuetran varios tipos de funciones con un proceso distinto cada una. 
 
 ◾La primer función(void ingresar), es donde se ingresan los datos personales y se usa el getline para leer una cadena (string). 
+
 ![](https://i.ibb.co/QmGppJf/Whats-App-Image-2021-07-23-at-6-03-26-PM.jpg)
 
 ◾La segunda función(void mostrar), es donde se muestran los datos ingresados en la primera funcion. 
+
 ![](https://i.ibb.co/jG9vg9p/Whats-App-Image-2021-07-23-at-6-03-33-PM.jpg)
 
 ◾La tercera función (void edad), es donde se va a calcula la edad del usuario. 
@@ -128,7 +131,6 @@ Alli se usa el ofstream para crear un archivo, se agrega una variable que sirve 
 ◾La septima función (void rym), se utiliza para recuperar y mostrar los datos guardados en la sexta función (void guardar), donde usa el ifstream que busca el archivo creado en la sexta función y creamos la misma variable que en la sexta función, ademas crear otra variable de tipo string que nos va a sirve para que el programa muestre todo el texto que hay en el archivo de texto. 
 
 ![](https://i.ibb.co/myG7NjW/Whats-App-Image-2021-07-23-at-6-04-31-PM.jpg)
-
 
 # INSTALACIÓN 🔧
 1. Primero debes estar dentro del repositorio.
@@ -206,4 +208,4 @@ Alli se usa el ofstream para crear un archivo, se agrega una variable que sirve 
 
 ![](https://i.ibb.co/g4nd7Ph/Captura18.png)
 
-ESPERO QUE TE SIRVA DE MUCHA AYUDA NUESTRO PROGRAMA ✔
+ESPERO QUE TE SIRVA DE MUCHA AYUDA NUESTRO PROGRAMA 😎 ✔
